@@ -1,0 +1,433 @@
+// Author: Swarmley
+// Version: 1.0
+
+{
+	id Oct.Characters.Humanoids.Orc.Variants.Shared
+	type CharacterTypeVariant
+	cosmeticSlots =
+			[
+				?(name == Mouth) {
+					type CharacterCosmeticSlot
+					cosmetics = 
+					[
+						{
+							id Oct.Characters.Humanoids.Orc.Jaw1
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJaw1
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJaw1.fbx					
+								name = OrcJaw1
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.Jaw2
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJaw2
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJaw2.fbx					
+								name = OrcJaw2
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.Jaw3
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJaw3
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJaw3.fbx					
+								name = OrcJaw3
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.Jaw4
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJaw4
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJaw4.fbx					
+								name = OrcJaw4
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.Jaw5
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJaw5
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJaw5.fbx					
+								name = OrcJaw5
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.JawFat1
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJawFat1
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJawFat1.fbx					
+								name = OrcJawFat1
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.2, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+												{
+							id Oct.Characters.Humanoids.Orc.JawFat2
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJawFat2
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJawFat2.fbx					
+								name = OrcJawFat2
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.2, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						
+						{
+							id Oct.Characters.Humanoids.Orc.JawFat3
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJawFat3
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJawFat3.fbx					
+								name = OrcJawFat3
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.2, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+						{
+							id Oct.Characters.Humanoids.Orc.JawFat4
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcJawFat4
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Mouth/OrcJawFat4.fbx					
+								name = OrcJawFat4
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+							scaleRange = vector(0.2, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(0.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+					]
+				}
+				{
+					type CharacterCosmeticSlot
+					name = Ears
+					cosmetics = 
+					[
+						{
+							id Oct.Characters.Humanoids.Orc.Ears1
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcEars1
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Ears/OrcEars1.fbx					
+								name = OrcEars1
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(1.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+												{
+							id Oct.Characters.Humanoids.Orc.Ears2
+							type MouthCharacterCosmetic
+							inherit Oct.Characters.Humanoids.Orc.MouthTemplate
+							
+							name = OrcEars2
+							prefab = 
+							{
+								type Prefab
+								path = /Art/Orc/Ears/OrcEars2.fbx					
+								name = OrcEars1
+								physics = false
+								autoGradient = true
+								behavior = 
+                    		    {
+                    		        type StaticCharacterCosmeticBehavior
+                    		        boneName = Face
+                    		    }
+							}
+
+							scaleRange = vector(0.0, 0.0, 0.0)
+							offsetRange = vector(0, 0, 0)
+							headScaled = vector(1.0, 0.0, 0.0)
+							instanceColors =
+    						[
+    						    {
+    						        type InstanceCosmeticMaterialColor
+									from = color(1,1,1)
+            						to = color(1, 1, 1)
+    						        materials = 
+    						        [
+    						            Head
+    						        ]
+									inheritSkin = 1.0
+    						    }
+    						]
+
+						}
+					]
+				}
+			]	
+}
